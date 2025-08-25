@@ -546,6 +546,81 @@ body{
     }
 }
 
+
+
+
+@media (max-width: 767px) {
+    /* Adjust the testimonials section */
+    .testimonials .testimonial-item {
+        margin: 0 10px 20px 10px;
+    }
+
+    .testimonials .testimonial-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .testimonials .testimonial-text {
+        padding: 20px 10px;
+    }
+
+    .testimonials .testimonial-text h3 {
+        font-size: 16px;
+    }
+
+    .testimonials .testimonial-text h4 {
+        font-size: 12px;
+    }
+
+    .testimonials .testimonial-text p {
+        font-size: 14px;
+    }
+
+    /* Adjust owl navigation dots and buttons */
+    .testimonials .owl-nav, 
+    .testimonials .owl-dots {
+        margin-top: 10px;
+    }
+
+    .testimonials .owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .testimonials .owl-dot.active {
+        background-color: #4F84C4;
+    }
+}
+
+@media (max-width: 575px) {
+    /* Make the testimonial items take full width on very small screens */
+    .testimonials .testimonial-item {
+        margin: 0 5px 15px 5px;
+    }
+
+    .testimonials .testimonial-img {
+        width: 100%;
+    }
+
+    .testimonials .testimonial-text {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .testimonials .testimonial-text h3 {
+        font-size: 14px;
+    }
+
+    .testimonials .testimonial-text h4 {
+        font-size: 10px;
+    }
+
+    .testimonials .testimonial-text p {
+        font-size: 12px;
+    }
+}
+
+
 .clients {
     position: relative;
     padding: 90px 0;
